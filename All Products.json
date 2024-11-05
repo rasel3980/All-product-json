@@ -1,0 +1,234 @@
+ [
+    {
+      "product_id": 1,
+      "product_title": "Apple Watch Series 8",
+      "product_image": "https://i.ibb.co/gddLk7S/Apple-Watch-Series-8.webp",
+      "category": "Smartwatches",
+      "price": 399,
+      "description": "Advanced smartwatch with health features and seamless iOS integration.",
+      "Specification": {
+        "screenSize": "1.9 inches",
+        "batteryLife": "18 hours",
+        "waterResistance": "50m"
+      },
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 2,
+      "product_title": "Samsung Fast Charging Wall Charger",
+      "product_image": "https://i.ibb.co/jgL2Tzc/Super-Fast-Charging-Wall-Chargerwebp.webp",
+      "category": "Chargers",
+      "price": 29.99,
+      "description": "25W USB-C charger with super fast charging for Samsung devices.",
+      "Specification": {
+        "powerOutput": "25W",
+        "portType": "USB-C",
+        "compatibleDevices": ["Samsung phones", "tablets"]
+      },
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 3,
+      "product_title": "Anker PowerCore 20100 Portable Charger",
+      "product_image": "https://i.ibb.co/Mp1mb22/Anker.webp",
+      "category": "Power Banks",
+      "price": 49.99,
+      "description": "High-capacity power bank for charging multiple devices on the go.",
+      "Specification": [
+        "Capacity: 20100mAh",
+        "Output: 4.8A",
+        "Weight: 356g",
+        "Fast Charging: Yes"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 4,
+      "product_title": "Samsung Galaxy S22",
+      "product_image": "https://i.ibb.co.com/sampleimage.jpg",
+      "category": "Phones",
+      "price": 799.99,
+      "description": "Premium smartphone with high-quality camera and long battery life.",
+      "Specification": [
+        "Screen Size: 6.1 inches",
+        "Storage: 128GB",
+        "Battery: 3700mAh",
+        "Camera: 50MP main"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 5,
+      "product_title": "Fitbit Versa 4",
+      "product_image": "https://i.ibb.co/pj0qQsS/Fitbit-Versa-4.jpg",
+      "category": "Smartwatches",
+      "price": 229,
+      "description": "Health-oriented smartwatch with a focus on fitness and wellness.",
+      "Specification": {
+        "screenSize": "1.6 inches",
+        "batteryLife": "6 days",
+        "waterResistance": "50m"
+      },
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 6,
+      "product_title": "Apple MacBook Pro 14-inch",
+      "product_image": "https://i.ibb.co.com/sampleimage.jpg",
+      "category": "Computers",
+      "price": 1999.99,
+      "description": "High-performance laptop with Apple M1 chip for creative professionals.",
+      "Specification": [
+        "Processor: M1 Pro",
+        "RAM: 16GB",
+        "Storage: 512GB SSD",
+        "Screen: 14.2 inches Retina display"
+      ],
+      "availability": false,
+      "rating": 4.8
+    },
+    {
+      "product_id": 7,
+      "product_title": "Google Pixel Stand 2",
+      "product_image": "https://i.ibb.co/qxpqHC9/Pixel-Stand-2.jpg",
+      "category": "Chargers",
+      "price": 79.99,
+      "description": "Wireless charger designed for Google Pixel devices with fast charging.",
+      "Specification": {
+        "powerOutput": "23W",
+        "portType": "Wireless",
+        "compatibleDevices": ["Google Pixel phones"]
+      },
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 8,
+      "product_title": "TicWatch Pro 3 Ultra",
+      "product_image": "https://i.ibb.co/qmCgBqM/TicWatch.webp",
+      "category": "Smartwatches",
+      "price": 299,
+      "description": "High-performance Wear OS smartwatch with extended battery mode.",
+      "Specification": {
+        "screenSize": "1.4 inches",
+        "batteryLife": "72 hours",
+        "waterResistance": "50m"
+      },
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 9,
+      "product_title": "Xiaomi Mi 33W Fast Charger",
+      "product_image": "https://i.ibb.co.com/sampleimage.jpg",
+      "category": "Chargers",
+      "price": 19.99,
+      "description": "Compact and fast charger compatible with multiple devices.",
+      "Specification": [
+        "Power Output: 33W",
+        "USB Ports: 1",
+        "Cable Included: Yes",
+        "Compatibility: Universal"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 10,
+      "product_title": "Garmin Fenix 7",
+      "product_image": "https://i.ibb.co/gzKMzqb/Fenix-7.webp",
+      "category": "Smartwatches",
+      "price": 699,
+      "description": "Rugged multisport GPS watch for adventure and endurance.",
+      "Specification": {
+        "screenSize": "1.3 inches",
+        "batteryLife": "18 days",
+        "waterResistance": "100m"
+      },
+      "availability": false,
+      "rating": 4.9
+    },
+    {
+      "product_id": 11,
+      "product_title": "OnePlus Nord 2",
+      "product_image": "https://i.ibb.co.com/sampleimage.jpg",
+      "category": "Phones",
+      "price": 399.99,
+      "description": "Mid-range phone with excellent performance and fast charging.",
+      "Specification": [
+        "Screen Size: 6.43 inches",
+        "Storage: 128GB",
+        "Battery: 4500mAh",
+        "Camera: 50MP main"
+      ],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": 12,
+      "product_title": "Dell XPS 13",
+      "product_image": "https://i.ibb.co.com/sampleimage.jpg",
+      "category": "Computers",
+      "price": 999.99,
+      "description": "Compact, high-performance laptop with edge-to-edge display.",
+      "Specification": [
+        "Processor: Intel Core i7",
+        "RAM: 16GB",
+        "Storage: 512GB SSD",
+        "Screen: 13.3 inches Full HD"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 13,
+      "product_title": "Anker Nano II 65W",
+      "product_image": "https://i.ibb.co/Yf3Ztj2/Anker-Nano-II-65W.jpg",
+      "category": "Chargers",
+      "price": 39.99,
+      "description": "Compact 65W charger with GaN technology for high efficiency.",
+      "Specification": {
+        "powerOutput": "65W",
+        "portType": "USB-C",
+        "compatibleDevices": ["laptops", "phones", "tablets"]
+      },
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 14,
+      "product_title": "Samsung Galaxy Watch 5",
+      "product_image": "https://i.ibb.co.com/sampleimage.jpg",
+      "category": "Smartwatches",
+      "price": 279.99,
+      "description": "Feature-rich smartwatch with advanced health tracking.",
+      "Specification": {
+        "screenSize": "1.36 inches",
+        "batteryLife": "40 hours",
+        "waterResistance": "50m"
+      },
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 15,
+      "product_title": "Razer Blade 15",
+      "product_image": "https://i.ibb.co.com/sampleimage.jpg",
+      "category": "Computers",
+      "price": 2399.99,
+      "description": "High-end gaming laptop with powerful GPU and fast display.",
+      "Specification": [
+        "Processor: Intel Core i9",
+        "RAM: 32GB",
+        "Storage: 1TB SSD",
+        "Screen: 15.6 inches QHD"
+      ],
+      "availability": true,
+      "rating": 4.6
+    }
+ ]
