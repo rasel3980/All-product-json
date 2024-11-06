@@ -1,5 +1,305 @@
- [
+[
+ {
+      "product_id": 1,
+      "product_title": "Apple MacBook Air M2",
+      "product_image": "https://i.ibb.co/F0XHnpQ/Mac-Book-Air-M2.jpg",
+      "category": "Laptops",
+      "price": 999,
+      "description": "Lightweight and powerful laptop with Apple's M2 chip, ideal for everyday tasks.",
+      "Specification": {
+        "cpu": "Apple M2",
+        "ram": "8GB",
+        "storage": "256GB SSD"
+      },
+      "availability": true,
+      "rating": 4.9
+    },
     {
+      "product_id": 2,
+      "product_title": "Dell XPS 13",
+      "product_image": "https://i.ibb.co/jgYJCgx/XPS-13.jpg",
+      "category": "Laptops",
+      "price": 1200,
+      "description": "Premium ultraportable laptop featuring a stunning display and high performance.",
+      "Specification": {
+        "cpu": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "512GB SSD"
+      },
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 3,
+      "product_title": "HP Spectre x360",
+      "product_image": "https://i.ibb.co/hdmYpTt/Spectre-x360.webp",
+      "category": "Laptops",
+      "price": 1300,
+      "description": "Versatile 2-in-1 laptop with a premium design and powerful specs.",
+      "Specification": {
+        "cpu": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "512GB SSD"
+      },
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 4,
+      "product_title": "Lenovo ThinkPad X1 Carbon",
+      "product_image": "https://i.ibb.co/w0Dg61N/Think-Pad-X1-Carbon.webp",
+      "category": "Laptops",
+      "price": 1400,
+      "description": "Business-class laptop known for its durability and performance.",
+      "Specification": {
+        "cpu": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "1TB SSD"
+      },
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 5,
+      "product_title": "Acer Swift 3",
+      "product_image": "https://i.ibb.co/0cCq4bJ/Swift-3.jpg",
+      "category": "Laptops",
+      "price": 650,
+      "description": "Affordable laptop with good performance for everyday use.",
+      "Specification": {
+        "cpu": "AMD Ryzen 5",
+        "ram": "8GB",
+        "storage": "256GB SSD"
+      },
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 6,
+      "product_title": "Microsoft Surface Laptop 4",
+      "product_image": "https://i.ibb.co/0mjj3TV/Surface-Laptop-4.jpg",
+      "category": "Laptops",
+      "price": 1000,
+      "description": "Stylish and powerful laptop with great battery life.",
+      "Specification": {
+        "cpu": "Intel Core i5",
+        "ram": "8GB",
+        "storage": "512GB SSD"
+      },
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 7,
+      "product_title": "Asus ZenBook 14",
+      "product_image": "https://i.ibb.co/Qjy13HF/Zen-Book-14.webp",
+      "category": "Laptops",
+      "price": 900,
+      "description": "Compact laptop with a sleek design and strong performance.",
+      "Specification": {
+        "cpu": "Intel Core i5",
+        "ram": "8GB",
+        "storage": "512GB SSD"
+      },
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 8,
+      "product_title": "Razer Blade 15",
+      "product_image": "https://i.ibb.co/3pjjdbC/Blade-15.jpg",
+      "category": "Gaming Laptops",
+      "price": 1600,
+      "description": "High-performance gaming laptop with a stunning display and powerful GPU.",
+      "Specification": {
+        "cpu": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "1TB SSD"
+      },
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 9,
+      "product_title": "Samsung Galaxy Book Pro",
+      "product_image": "https://i.ibb.co/LCnBcvp/Galaxy-Book-Pro.jpg",
+      "category": "Laptops",
+      "price": 1100,
+      "description": "Ultra-thin laptop with great performance and battery life.",
+      "Specification": {
+        "cpu": "Intel Core i5",
+        "ram": "8GB",
+        "storage": "512GB SSD"
+      },
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 10,
+      "product_title": "LG Gram 17",
+      "product_image": "https://i.ibb.co/GPDxkqD/Gram-17.jpg",
+      "category": "Laptops",
+      "price": 1500,
+      "description": "Lightweight laptop with a large display and powerful hardware.",
+      "Specification": {
+        "cpu": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "1TB SSD"
+      },
+      "availability": true,
+      "rating": 4.5
+    },
+ {
+      "product_id": 1,
+      "product_title": "Apple iPhone 14",
+      "product_image": "https://i.ibb.co/kxQF452/iphon-14.jpg",
+      "category": "Smartphones",
+      "price": 799,
+      "description": "Apple's flagship smartphone with cutting-edge performance and camera technology.",
+      "Specification": {
+        "screenSize": "6.1 inches",
+        "storage": "128GB",
+        "camera": "12MP dual"
+      },
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 2,
+      "product_title": "Samsung Galaxy S23",
+      "product_image": "https://i.ibb.co/5RMmmyx/Galaxy-S23-Lavender-4600.jpg",
+      "category": "Smartphones",
+      "price": 999,
+      "description": "Premium smartphone from Samsung featuring an advanced triple-camera setup.",
+      "Specification": {
+        "screenSize": "6.8 inches",
+        "storage": "256GB",
+        "camera": "50MP triple"
+      },
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 3,
+      "product_title": "Google Pixel 7",
+      "product_image": "https://i.ibb.co/ZhPHyjt/Google-Pixel-7-Used-Price-in-Bangladesh.jpg",
+      "category": "Smartphones",
+      "price": 599,
+      "description": "Google's latest smartphone with an impressive camera and pure Android experience.",
+      "Specification": {
+        "screenSize": "6.3 inches",
+        "storage": "128GB",
+        "camera": "50MP dual"
+      },
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 4,
+      "product_title": "OnePlus 9 Pro",
+      "product_image": "https://i.ibb.co/n1g5wv5/OnePlus.png",
+      "category": "Smartphones",
+      "price": 729,
+      "description": "High-performance smartphone with Hasselblad camera system for stunning photos.",
+      "Specification": {
+        "screenSize": "6.7 inches",
+        "storage": "128GB",
+        "camera": "48MP quad"
+      },
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 5,
+      "product_title": "Xiaomi Mi 11",
+      "product_image": "https://i.ibb.co/vHZhkzX/Xiaomi-Mi-11-Black-500x500-1-500x500.jpg",
+      "category": "Smartphones",
+      "price": 699,
+      "description": "Affordable flagship with a high-resolution 108MP camera and excellent performance.",
+      "Specification": {
+        "screenSize": "6.8 inches",
+        "storage": "256GB",
+        "camera": "108MP triple"
+      },
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 6,
+      "product_title": "Sony Xperia 1 IV",
+      "product_image": "https://i.ibb.co/kMKWPzp/sony.jpg",
+      "category": "Smartphones",
+      "price": 1200,
+      "description": "High-end Sony phone with exceptional camera technology and 4K display.",
+      "Specification": {
+        "screenSize": "6.5 inches",
+        "storage": "512GB",
+        "camera": "12MP triple"
+      },
+      "availability": false,
+      "rating": 4.3
+    },
+    {
+      "product_id": 7,
+      "product_title": "Huawei P50 Pro",
+      "product_image": "https://i.ibb.co/xjBFnLT/huawei-p50-pro.jpg",
+      "category": "Smartphones",
+      "price": 799,
+      "description": "Flagship device from Huawei with powerful quad-camera setup.",
+      "Specification": {
+        "screenSize": "6.6 inches",
+        "storage": "256GB",
+        "camera": "50MP quad"
+      },
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 8,
+      "product_title": "Motorola Edge Plus",
+      "product_image": "https://i.ibb.co/hKPK1B4/motorola-edge-plus-body-1587551574402.webp",
+      "category": "Smartphones",
+      "price": 999,
+      "description": "Premium Motorola smartphone with powerful specs and stunning design.",
+      "Specification": {
+        "screenSize": "6.7 inches",
+        "storage": "256GB",
+        "camera": "108MP triple"
+      },
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 9,
+      "product_title": "Oppo Find X5",
+      "product_image": "https://i.ibb.co/p2FvkP8/Find-X5.jpg",
+      "category": "Smartphones",
+      "price": 849,
+      "description": "Stylish smartphone from Oppo with powerful camera and storage options.",
+      "Specification": {
+        "screenSize": "6.55 inches",
+        "storage": "128GB",
+        "camera": "50MP triple"
+      },
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": 10,
+      "product_title": "Vivo X80 Pro",
+      "product_image": "https://i.ibb.co/TYXy8SL/Vivo-X80-Pro.webp",
+      "category": "Smartphones",
+      "price": 899,
+      "description": "Vivo flagship with advanced camera and high-resolution screen.",
+      "Specification": {
+        "screenSize": "6.78 inches",
+        "storage": "256GB",
+        "camera": "50MP quad"
+      },
+      "availability": true,
+      "rating": 4.6
+    },
+ {
       "product_id": 1,
       "product_title": "Apple Watch Series 8",
       "product_image": "https://i.ibb.co/gddLk7S/Apple-Watch-Series-8.webp",
@@ -16,53 +316,21 @@
     },
     {
       "product_id": 2,
-      "product_title": "Samsung Fast Charging Wall Charger",
-      "product_image": "https://i.ibb.co/jgL2Tzc/Super-Fast-Charging-Wall-Chargerwebp.webp",
-      "category": "Chargers",
-      "price": 29.99,
-      "description": "25W USB-C charger with super fast charging for Samsung devices.",
+      "product_title": "Samsung Galaxy Watch 5",
+      "product_image": "https://i.ibb.co/HTtbQ1C/Galaxy-Watch5-blue-custom-ma-bd.webp",
+      "category": "Smartwatches",
+      "price": 279,
+      "description": "Feature-rich smartwatch with extensive battery life and Samsung Health.",
       "Specification": {
-        "powerOutput": "25W",
-        "portType": "USB-C",
-        "compatibleDevices": ["Samsung phones", "tablets"]
+        "screenSize": "1.4 inches",
+        "batteryLife": "50 hours",
+        "waterResistance": "50m"
       },
       "availability": true,
       "rating": 4.6
     },
     {
       "product_id": 3,
-      "product_title": "Anker PowerCore 20100 Portable Charger",
-      "product_image": "https://i.ibb.co/Mp1mb22/Anker.webp",
-      "category": "Power Banks",
-      "price": 49.99,
-      "description": "High-capacity power bank for charging multiple devices on the go.",
-      "Specification": [
-        "Capacity: 20100mAh",
-        "Output: 4.8A",
-        "Weight: 356g",
-        "Fast Charging: Yes"
-      ],
-      "availability": true,
-      "rating": 4.7
-    },
-    {
-      "product_id": 4,
-      "product_title": "Samsung Galaxy S22",
-      "product_image": "https://i.ibb.co.com/sampleimage.jpg",
-      "category": "Phones",
-      "price": 799.99,
-      "description": "Premium smartphone with high-quality camera and long battery life.",
-      "Specification": [
-        "Screen Size: 6.1 inches",
-        "Storage: 128GB",
-        "Battery: 3700mAh",
-        "Camera: 50MP main"
-      ],
-      "availability": true,
-      "rating": 4.5
-    },
-    {
-      "product_id": 5,
       "product_title": "Fitbit Versa 4",
       "product_image": "https://i.ibb.co/pj0qQsS/Fitbit-Versa-4.jpg",
       "category": "Smartwatches",
@@ -77,35 +345,64 @@
       "rating": 4.5
     },
     {
-      "product_id": 6,
-      "product_title": "Apple MacBook Pro 14-inch",
-      "product_image": "https://i.ibb.co.com/sampleimage.jpg",
-      "category": "Computers",
-      "price": 1999.99,
-      "description": "High-performance laptop with Apple M1 chip for creative professionals.",
-      "Specification": [
-        "Processor: M1 Pro",
-        "RAM: 16GB",
-        "Storage: 512GB SSD",
-        "Screen: 14.2 inches Retina display"
-      ],
+      "product_id": 4,
+      "product_title": "Garmin Fenix 7",
+      "product_image": "https://i.ibb.co/gzKMzqb/Fenix-7.webp",
+      "category": "Smartwatches",
+      "price": 699,
+      "description": "Rugged multisport GPS watch for adventure and endurance.",
+      "Specification": {
+        "screenSize": "1.3 inches",
+        "batteryLife": "18 days",
+        "waterResistance": "100m"
+      },
       "availability": false,
-      "rating": 4.8
+      "rating": 4.9
+    },
+    {
+      "product_id": 5,
+      "product_title": "Amazfit GTS 4",
+      "product_image": "https://i.ibb.co/jRPd37M/Amazfit.jpg",
+      "category": "Smartwatches",
+      "price": 199,
+      "description": "Lightweight smartwatch with long battery life and multiple sports modes.",
+      "Specification": {
+        "screenSize": "1.75 inches",
+        "batteryLife": "8 days",
+        "waterResistance": "50m"
+      },
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": 6,
+      "product_title": "Huawei Watch GT 3",
+      "product_image": "https://i.ibb.co/VLGh9Cx/huawei-watch-gt-3-weight-2.png",
+      "category": "Smartwatches",
+      "price": 249,
+      "description": "Sophisticated smartwatch with impressive battery life and health features.",
+      "Specification": {
+        "screenSize": "1.43 inches",
+        "batteryLife": "14 days",
+        "waterResistance": "50m"
+      },
+      "availability": true,
+      "rating": 4.6
     },
     {
       "product_id": 7,
-      "product_title": "Google Pixel Stand 2",
-      "product_image": "https://i.ibb.co/qxpqHC9/Pixel-Stand-2.jpg",
-      "category": "Chargers",
-      "price": 79.99,
-      "description": "Wireless charger designed for Google Pixel devices with fast charging.",
+      "product_title": "Withings ScanWatch",
+      "product_image": "https://i.ibb.co/12QYZm6/Scan-Watch.jpg",
+      "category": "Smartwatches",
+      "price": 299,
+      "description": "Hybrid smartwatch with medical-grade health monitoring.",
       "Specification": {
-        "powerOutput": "23W",
-        "portType": "Wireless",
-        "compatibleDevices": ["Google Pixel phones"]
+        "screenSize": "1.64 inches",
+        "batteryLife": "30 days",
+        "waterResistance": "50m"
       },
-      "availability": true,
-      "rating": 4.4
+      "availability": false,
+      "rating": 4.7
     },
     {
       "product_id": 8,
@@ -124,6 +421,250 @@
     },
     {
       "product_id": 9,
+      "product_title": "Fossil Gen 6",
+      "product_image": "https://i.ibb.co/rFdQM76/Fossil.jpg",
+      "category": "Smartwatches",
+      "price": 299,
+      "description": "Stylish smartwatch with Snapdragon Wear 4100+ and fast charging.",
+      "Specification": {
+        "screenSize": "1.28 inches",
+        "batteryLife": "24 hours",
+        "waterResistance": "30m"
+      },
+      "availability": true,
+      "rating": 4.2
+    },
+    {
+      "product_id": 10,
+      "product_title": "Suunto 7 Titanium",
+      "product_image": "https://i.ibb.co/sgXhSpK/7-Titanium.jpg",
+      "category": "Smartwatches",
+      "price": 399,
+      "description": "Titanium-cased smartwatch for fitness and outdoor adventures.",
+      "Specification": {
+        "screenSize": "1.39 inches",
+        "batteryLife": "48 hours",
+        "waterResistance": "50m"
+      },
+      "availability": true,
+      "rating": 4.5
+    },
+  {
+      "product_id": 1,
+      "product_title": "Anker PowerPort Atom PD 1",
+      "product_image": "https://i.ibb.co/4KmPg46/Anker-Power-Port-Atom-PD-1-30-W-Ultra-Compact-Type-C-Wall-Charger.webp",
+      "category": "Chargers",
+      "price": 29.99,
+      "description": "Compact 30W USB-C charger suitable for phones, tablets, and laptops.",
+      "Specification": {
+        "powerOutput": "30W",
+        "portType": "USB-C",
+        "compatibleDevices": ["phones", "tablets", "laptops"]
+      },
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 2,
+      "product_title": "Apple 20W USB-C Power Adapter",
+      "product_image": "https://i.ibb.co/xF66zhD/20-W-USB-C-Power-Adapter.jpg",
+      "category": "Chargers",
+      "price": 19.99,
+      "description": "Official Apple USB-C power adapter for fast charging iPhones and iPads.",
+      "Specification": {
+        "powerOutput": "20W",
+        "portType": "USB-C",
+        "compatibleDevices": ["iPhones", "iPads"]
+      },
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 3,
+      "product_title": "Samsung Super Fast Charging Wall Charger",
+      "product_image": "https://i.ibb.co/jgL2Tzc/Super-Fast-Charging-Wall-Chargerwebp.webp",
+      "category": "Chargers",
+      "price": 29.99,
+      "description": "25W USB-C charger with super fast charging for Samsung devices.",
+      "Specification": {
+        "powerOutput": "25W",
+        "portType": "USB-C",
+        "compatibleDevices": ["Samsung phones", "tablets"]
+      },
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 4,
+      "product_title": "Belkin BoostCharge Pro",
+      "product_image": "https://i.ibb.co/fS5SjDX/Boost-Charge-Pro.jpg",
+      "category": "Chargers",
+      "price": 49.99,
+      "description": "High-power 60W USB-C charger ideal for laptops, tablets, and phones.",
+      "Specification": {
+        "powerOutput": "60W",
+        "portType": "USB-C",
+        "compatibleDevices": ["laptops", "phones", "tablets"]
+      },
+      "availability": false,
+      "rating": 4.5
+    },
+    {
+      "product_id": 5,
+      "product_title": "RAVPower PD Pioneer 65W",
+      "product_image": "https://i.ibb.co/S7NJpVm/PD-Pioneer-65-W.jpg",
+      "category": "Chargers",
+      "price": 39.99,
+      "description": "65W power delivery charger for fast charging multiple devices.",
+      "Specification": {
+        "powerOutput": "65W",
+        "portType": "USB-C",
+        "compatibleDevices": ["laptops", "phones", "tablets"]
+      },
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 6,
+      "product_title": "Google Pixel Stand 2",
+      "product_image": "https://i.ibb.co/qxpqHC9/Pixel-Stand-2.jpg",
+      "category": "Chargers",
+      "price": 79.99,
+      "description": "Wireless charger designed for Google Pixel devices with fast charging.",
+      "Specification": {
+        "powerOutput": "23W",
+        "portType": "Wireless",
+        "compatibleDevices": ["Google Pixel phones"]
+      },
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 7,
+      "product_title": "Mophie Snap+ Wireless Charger",
+      "product_image": "https://i.ibb.co/0jTXrfR/Snap-Wireless-Charger.jpg",
+      "category": "Chargers",
+      "price": 34.95,
+      "description": "15W wireless charger compatible with all Qi-enabled devices.",
+      "Specification": {
+        "powerOutput": "15W",
+        "portType": "Wireless",
+        "compatibleDevices": ["phones with wireless charging"]
+      },
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": 8,
+      "product_title": "AmazonBasics Dual-Port USB Wall Charger",
+      "product_image": "https://i.ibb.co/HVZft4W/Dual-Port-USB-Wall-Charger.jpg",
+      "category": "Chargers",
+      "price": 14.99,
+      "description": "Affordable dual USB-A wall charger for simultaneous charging.",
+      "Specification": {
+        "powerOutput": "24W",
+        "portType": "USB-A",
+        "compatibleDevices": ["phones", "tablets"]
+      },
+      "availability": true,
+      "rating": 4.1
+    },
+    {
+      "product_id": 9,
+      "product_title": "Ugreen USB-C Charger 100W",
+      "product_image": "https://i.ibb.co/4JSHQJC/USB-C-Charger-100-W.jpg",
+      "category": "Chargers",
+      "price": 49.99,
+      "description": "100W USB-C charger for fast charging of laptops, tablets, and phones.",
+      "Specification": {
+        "powerOutput": "100W",
+        "portType": "USB-C",
+        "compatibleDevices": ["laptops", "phones", "tablets"]
+      },
+      "availability": false,
+      "rating": 4.7
+    },
+    {
+      "product_id": 10,
+      "product_title": "Spigen ArcStation Pro 45W",
+      "product_image": "https://i.ibb.co/BgLBgbx/Arc-Station-Pro-45-W.jpg",
+      "category": "Chargers",
+      "price": 34.99,
+      "description": "Compact 45W charger with GaN technology for high efficiency.",
+      "Specification": {
+        "powerOutput": "45W",
+        "portType": "USB-C",
+        "compatibleDevices": ["phones", "tablets", "laptops"]
+      },
+      "availability": true,
+      "rating": 4.6
+    },
+ {
+      "product_id": 1,
+      "product_title": "Anker PowerCore 20100 Portable Charger",
+      "product_image": "https://i.ibb.co/Mp1mb22/Anker.webp",
+      "category": "Power Banks",
+      "price": 49.99,
+      "description": "High-capacity power bank for charging multiple devices on the go.",
+      "Specification": [
+        "Capacity: 20100mAh",
+        "Output: 4.8A",
+        "Weight: 356g",
+        "Fast Charging: Yes"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 2,
+      "product_title": "Samsung Galaxy S22",
+      "product_image": "https://i.ibb.co.com/sampleimage.jpg",
+      "category": "Phones",
+      "price": 799.99,
+      "description": "Premium smartphone with high-quality camera and long battery life.",
+      "Specification": [
+        "Screen Size: 6.1 inches",
+        "Storage: 128GB",
+        "Battery: 3700mAh",
+        "Camera: 50MP main"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 3,
+      "product_title": "Apple MacBook Pro 14-inch",
+      "product_image": "https://i.ibb.co.com/sampleimage.jpg",
+      "category": "Computers",
+      "price": 1999.99,
+      "description": "High-performance laptop with Apple M1 chip for creative professionals.",
+      "Specification": [
+        "Processor: M1 Pro",
+        "RAM: 16GB",
+        "Storage: 512GB SSD",
+        "Screen: 14.2 inches Retina display"
+      ],
+      "availability": false,
+      "rating": 4.8
+    },
+    {
+      "product_id": 4,
+      "product_title": "Fitbit Charge 5",
+      "product_image": "https://i.ibb.co.com/sampleimage.jpg",
+      "category": "Smart Watches",
+      "price": 149.95,
+      "description": "Advanced fitness tracker with heart rate monitoring and GPS.",
+      "Specification": [
+        "Battery Life: Up to 7 days",
+        "Display: AMOLED",
+        "Heart Rate Monitor: Yes",
+        "GPS: Yes"
+      ],
+      "availability": true,
+      "rating": 4.2
+    },
+    {
+      "product_id": 5,
       "product_title": "Xiaomi Mi 33W Fast Charger",
       "product_image": "https://i.ibb.co.com/sampleimage.jpg",
       "category": "Chargers",
@@ -137,98 +678,5 @@
       ],
       "availability": true,
       "rating": 4.6
-    },
-    {
-      "product_id": 10,
-      "product_title": "Garmin Fenix 7",
-      "product_image": "https://i.ibb.co/gzKMzqb/Fenix-7.webp",
-      "category": "Smartwatches",
-      "price": 699,
-      "description": "Rugged multisport GPS watch for adventure and endurance.",
-      "Specification": {
-        "screenSize": "1.3 inches",
-        "batteryLife": "18 days",
-        "waterResistance": "100m"
-      },
-      "availability": false,
-      "rating": 4.9
-    },
-    {
-      "product_id": 11,
-      "product_title": "OnePlus Nord 2",
-      "product_image": "https://i.ibb.co.com/sampleimage.jpg",
-      "category": "Phones",
-      "price": 399.99,
-      "description": "Mid-range phone with excellent performance and fast charging.",
-      "Specification": [
-        "Screen Size: 6.43 inches",
-        "Storage: 128GB",
-        "Battery: 4500mAh",
-        "Camera: 50MP main"
-      ],
-      "availability": true,
-      "rating": 4.3
-    },
-    {
-      "product_id": 12,
-      "product_title": "Dell XPS 13",
-      "product_image": "https://i.ibb.co.com/sampleimage.jpg",
-      "category": "Computers",
-      "price": 999.99,
-      "description": "Compact, high-performance laptop with edge-to-edge display.",
-      "Specification": [
-        "Processor: Intel Core i7",
-        "RAM: 16GB",
-        "Storage: 512GB SSD",
-        "Screen: 13.3 inches Full HD"
-      ],
-      "availability": true,
-      "rating": 4.6
-    },
-    {
-      "product_id": 13,
-      "product_title": "Anker Nano II 65W",
-      "product_image": "https://i.ibb.co/Yf3Ztj2/Anker-Nano-II-65W.jpg",
-      "category": "Chargers",
-      "price": 39.99,
-      "description": "Compact 65W charger with GaN technology for high efficiency.",
-      "Specification": {
-        "powerOutput": "65W",
-        "portType": "USB-C",
-        "compatibleDevices": ["laptops", "phones", "tablets"]
-      },
-      "availability": true,
-      "rating": 4.7
-    },
-    {
-      "product_id": 14,
-      "product_title": "Samsung Galaxy Watch 5",
-      "product_image": "https://i.ibb.co.com/sampleimage.jpg",
-      "category": "Smartwatches",
-      "price": 279.99,
-      "description": "Feature-rich smartwatch with advanced health tracking.",
-      "Specification": {
-        "screenSize": "1.36 inches",
-        "batteryLife": "40 hours",
-        "waterResistance": "50m"
-      },
-      "availability": true,
-      "rating": 4.5
-    },
-    {
-      "product_id": 15,
-      "product_title": "Razer Blade 15",
-      "product_image": "https://i.ibb.co.com/sampleimage.jpg",
-      "category": "Computers",
-      "price": 2399.99,
-      "description": "High-end gaming laptop with powerful GPU and fast display.",
-      "Specification": [
-        "Processor: Intel Core i9",
-        "RAM: 32GB",
-        "Storage: 1TB SSD",
-        "Screen: 15.6 inches QHD"
-      ],
-      "availability": true,
-      "rating": 4.6
     }
- ]
+  ]
